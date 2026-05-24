@@ -1,0 +1,8 @@
+full_name = input("กรอกขื่อและนามสกุล")
+name_parts = full_name.split()
+if len(name_parts) >= 2:
+    first_name = name_parts[0]
+    last_name = name_parts[1]
+    short_first = first_name[:2]
+    short_last = last_name[:2]
+    print("ผลลัพท์คือ:", short_first, short_last)
